@@ -53,6 +53,6 @@ var s = '50'
 var sh = 50
 
 console.log('compare type and value :>> ', s == sh); //true check value
-console.log('compare type and value :>> ', s === sh); //false check value and type
+console.log('compare type and value :>> ', s === sh); //false        check value and type
 
 console.log('compare type and value :>> ', s !== sh); //true check value and type
