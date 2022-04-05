@@ -15,6 +15,7 @@ person.name = 'Shaker';
 console.log('person :>> ', person);
 
 let key = Object.keys(person);
+let newA = person
 console.log('key :>> ', key);
 
 let values = Object.values(person)

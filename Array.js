@@ -1,10 +1,10 @@
-// let num = [1,2,3,4,5,6,7,4,8,8,8,9,10];
+ let num = [1,2,3,4,5,6,7,4,8,8,8,9,10];
 // num[0] = 10;
 
-// console.log('num1 :>> ', num);
+ console.log('num1 :>> ', num);
 // Push
-// num.push(11,12,13)
-//  console.log('num2 :>> ', num);
+//  num.push(11,12,13)
+//   console.log('num2 :>> ', num);
 
 // // Pop
 // num.pop();
@@ -43,13 +43,13 @@
 //Filter
 //Reduce
 
-let num = [1,2,3,4,5,6,7,4,8,8,8,9,10];
+// let num = [1,2,3,4,5,6,7,4,8,8,8,9,10];
 
-let total = num.reduce((previousValue, currentValue) => previousValue + currentValue , 0);
-console.log('total :>> ', total);
-let sum = 0 // 1 3
-for(let i = 0; i < num.length; i++){
-    // console.log(num[i])
-    sum = sum + num[i]
-}
-console.log('sum :>> ', sum);
+// let total = num.reduce((previousValue, currentValue) => previousValue + currentValue , 0);
+// console.log('total :>> ', total);
+// let sum = 0 // 1 3
+// for(let i = 0; i < num.length; i++){
+//     // console.log(num[i])
+//     sum = sum + num[i]
+// }
+// console.log('sum :>> ', sum);
