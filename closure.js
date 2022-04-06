@@ -10,4 +10,4 @@ function hello(){
 
 const abc = hello()
 
-console.dir('abc :>> ', abc);
+console.log('abc :>> ', abc());
