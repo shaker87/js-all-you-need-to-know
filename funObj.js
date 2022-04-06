@@ -17,17 +17,13 @@ let obj = {
 }
 
 
-
-
-
-
-
 const objKey = Object.keys(obj)
 
 console.log('objKey', objKey)
-const newArray = objKey.map(item => {
-    let newArr = obj[item]
-    newArr.id = item
-    return newArr
+const newArray = objKey.map(itemKey => {
+    let newArr = obj[itemKey];
+    console.log('newArr :>> ', newArr);
+    newArr.id = itemKey;
+    return newArr;
 })
 console.log('newArray :>> ', newArray);
